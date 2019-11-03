@@ -51,4 +51,4 @@ min).</p>
  📝 **License**
 ------------------------
 Copyright © 2019 [RokisM](https://github.com/gerulisss), [PauliusPo](https://github.com/PauliusPo), [Sauliune](https://github.com/Sauliune) <br />
-This project is [MIT](https://github.com/gerulisss/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/gerulisss/Pizzeria/License.md) licensed.
