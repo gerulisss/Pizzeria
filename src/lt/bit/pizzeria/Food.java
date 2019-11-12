@@ -1,15 +1,11 @@
 package lt.bit.pizzeria;
 
-//public interface Food {
-public class Food {
-    String name;
-    String ingredients;
-    int size;
-    double price;
+public class Food implements MenuItem {
+    private String name;
+    private String ingredients;
+    private int size;
+    private double price;
 
-    public String getPrice() {
-        return price+"eur ";
-    }
 
     Food(String name, String ingredients, int size, double price){
         this.name = name;
@@ -17,5 +13,14 @@ public class Food {
         this.size = size;
         this.price = price;
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public Double getPrice() {
+        return price;
+    }
 }
-//    }
