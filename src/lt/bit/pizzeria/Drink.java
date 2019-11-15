@@ -6,8 +6,6 @@ public class Drink implements MenuItem {
     double size;
 
 
-
-
     Drink(String name, double size, double price){
         this.name = name;
         this.size = size;
@@ -23,18 +21,6 @@ public class Drink implements MenuItem {
 
     @Override
     public double getPrice() {
-        return price;
-    }
-
-
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public Double getPrice() {
         return price;
     }
 }
