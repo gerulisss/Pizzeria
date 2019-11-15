@@ -95,6 +95,8 @@ public class PizzeriaMain  {
             drinks3.getPrice();
         } while (gerimas < 4);
 
+
+
 //        double ordercost = pica.getPrice + Sauce.getPrice + drink.getPrice;
 //        double totalCostD = pica.getPrice + Sauce.getPrice + drink.getPrice + deliverycost;
 //        System.out.println("Ar reikalingas picos pristatymas?\n Įveskite taip arba ne");
@@ -117,3 +119,5 @@ public class PizzeriaMain  {
 //        }
     }
 }
+
+//aaa
