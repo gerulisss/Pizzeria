@@ -1,18 +1,31 @@
 package lt.bit.pizzeria;
 
-//public interface Drink {
-//
-//        }
-
-public class Drink {
+public class Drink implements MenuItem {
     String name;
-    double size;
     double price;
+    double size;
+
+
+
 
     Drink(String name, double size, double price){
         this.name = name;
         this.size = size;
         this.price = price;
+   }
+
+
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getPrice() {
+        return price;
     }
 }
+
+
 

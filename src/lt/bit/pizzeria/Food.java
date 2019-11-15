@@ -1,15 +1,11 @@
 package lt.bit.pizzeria;
 
-//public interface Food {
-public class Food {
-    String name;
-    String ingredients;
-    int size;
-    double price;
+public class Food implements MenuItem {
+     String name;
+     String ingredients;
+     int size;
+     double price;
 
-    public String getPrice() {
-        return price+"eur ";
-    }
 
     Food(String name, String ingredients, int size, double price){
         this.name = name;
@@ -17,5 +13,40 @@ public class Food {
         this.size = size;
         this.price = price;
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getPrice() {
+        return price;
+    }
 }
+
+
+
+//import java.util.Scanner;
+//
+//class InputOutputMain {
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        while (true) {
+//            printMenu();
+//            String line = scanner.nextLine();
+//            if (line.equals("e")) {
+//                break;
+//            }
+//
+//        }
 //    }
+//
+//    private static void printMenu() {
+//        System.out.println("Meniu...");
+//        System.out.println("e - iseiti");
+//        System.out.print("Pasirinkite is meniu: ");
+//    }
+//}
+
