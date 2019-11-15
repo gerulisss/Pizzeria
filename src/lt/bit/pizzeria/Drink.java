@@ -25,6 +25,18 @@ public class Drink implements MenuItem {
     public double getPrice() {
         return price;
     }
+
+
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public Double getPrice() {
+        return price;
+    }
 }
 
 

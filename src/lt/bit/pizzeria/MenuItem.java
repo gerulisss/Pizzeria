@@ -7,9 +7,3 @@ public interface MenuItem {
 
 }
 
-
-
-//    get neme metodas;
-//    get price;
-
-//aaa

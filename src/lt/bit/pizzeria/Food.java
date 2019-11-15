@@ -1,6 +1,7 @@
 package lt.bit.pizzeria;
 
 public class Food implements MenuItem {
+
      String name;
      String ingredients;
      int size;
@@ -20,6 +21,7 @@ public class Food implements MenuItem {
     }
 
     @Override
+
     public double getPrice() {
         return price;
     }
